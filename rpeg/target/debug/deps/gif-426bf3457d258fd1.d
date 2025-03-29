@@ -1,0 +1,11 @@
+/Users/cjbalmaceda/csc411/assignments/arith/rpeg/target/debug/deps/libgif-426bf3457d258fd1.rmeta: /Users/cjbalmaceda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/lib.rs /Users/cjbalmaceda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/traits.rs /Users/cjbalmaceda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/common.rs /Users/cjbalmaceda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/reader/mod.rs /Users/cjbalmaceda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/reader/decoder.rs /Users/cjbalmaceda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/encoder.rs /Users/cjbalmaceda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/../README.md
+
+/Users/cjbalmaceda/csc411/assignments/arith/rpeg/target/debug/deps/gif-426bf3457d258fd1.d: /Users/cjbalmaceda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/lib.rs /Users/cjbalmaceda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/traits.rs /Users/cjbalmaceda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/common.rs /Users/cjbalmaceda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/reader/mod.rs /Users/cjbalmaceda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/reader/decoder.rs /Users/cjbalmaceda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/encoder.rs /Users/cjbalmaceda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/../README.md
+
+/Users/cjbalmaceda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/lib.rs:
+/Users/cjbalmaceda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/traits.rs:
+/Users/cjbalmaceda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/common.rs:
+/Users/cjbalmaceda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/reader/mod.rs:
+/Users/cjbalmaceda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/reader/decoder.rs:
+/Users/cjbalmaceda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/encoder.rs:
+/Users/cjbalmaceda/.cargo/registry/src/index.crates.io-6f17d22bba15001f/gif-0.12.0/src/../README.md:
