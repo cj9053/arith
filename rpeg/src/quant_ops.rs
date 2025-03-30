@@ -1,3 +1,5 @@
+//copied from class notes:
+
 pub fn scale_sat(x: f32, max_magnitude: f32) -> f32 {
     if x > max_magnitude {
         return max_magnitude;

@@ -5,6 +5,7 @@ edition = "2021"
 
 [dependencies]
 array2 = { path = "../array2" }
+bitpack = { path = "../bitpack" }
 clap = { version = "4.5.32", features = ["derive"] }
 csc411_arith = "0.1.0"
 

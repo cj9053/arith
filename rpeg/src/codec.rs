@@ -1,10 +1,7 @@
 #![allow(warnings)]
-use std::ops::Deref;
-
-use crate::new_structs::p_Avg_Coscoeff;
-use crate::new_structs::Rgbfloat;
-use crate::new_structs::CVCS;
+use crate::new_structs::{p_Avg_Coscoeff, Rgbfloat, CVCS};
 use crate::quant_ops::{scale_sat, smax};
+use std::ops::Deref;
 
 use array2::Array2;
 use csc411_arith::index_of_chroma;

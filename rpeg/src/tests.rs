@@ -214,7 +214,8 @@ mod tests {
         //create test for each pix
         //values in the vec are acquired from converted rgb values from rgb2float float test
         let result = codec::rgbf2component(sim_img);
-        //init vals for pix1
+        //init vals for expected vals
+        //pix1
         let y1 =
             //red
             (0.299 * red1)
@@ -350,18 +351,20 @@ mod tests {
 
     #[test]
     fn test_component2rgb() {
+        //p1
         let y1: f64 = rand::rng().random_range(0.0..1.0);
         let pb1: f64 = rand::rng().random_range(-0.5..0.5);
         let pr1: f64 = rand::rng().random_range(-0.5..0.5);
 
+        //p2
         let y2: f64 = rand::rng().random_range(0.0..1.0);
         let pb2: f64 = rand::rng().random_range(-0.5..0.5);
         let pr2: f64 = rand::rng().random_range(-0.5..0.5);
-
+        //p3
         let y3: f64 = rand::rng().random_range(0.0..1.0);
         let pb3: f64 = rand::rng().random_range(-0.5..0.5);
         let pr3: f64 = rand::rng().random_range(-0.5..0.5);
-
+        //p4
         let y4: f64 = rand::rng().random_range(0.0..1.0);
         let pb4: f64 = rand::rng().random_range(-0.5..0.5);
         let pr4: f64 = rand::rng().random_range(-0.5..0.5);
@@ -490,26 +493,21 @@ mod tests {
 
     #[test]
     fn test_quant_ops() {
-        // Input values
         let a = 0.5;
         let b = 0.5;
         let c = -0.8;
         let d = 0.1;
 
-        // COSINE_FORCE constant
         const COSINE_FORCE: f32 = 0.3;
 
-        // Manually calculate expected values
         let quant_a = (a * 511 as f64).round() as u16; // Scale and round "a" to fit in 9 bits (0-511)
         let smax_val = quant_ops::smax(5) as f32; // smax(5) = (1 << 5) / 2 - 1 = 15
         let quant_b = (quant_ops::scale_sat(b as f32, COSINE_FORCE) * smax_val).floor() as i32; // Expected: 2
         let quant_c = (quant_ops::scale_sat(c as f32, COSINE_FORCE) * smax_val).floor() as i32; // Expected: -4
         let quant_d = (quant_ops::scale_sat(d as f32, COSINE_FORCE) * smax_val).floor() as i32; // Expected: 0
 
-        // Call the function
         let result = codec::quantize_a_b_c_d(a, b, c, d);
 
-        // Assert expected values
         assert_eq!(result, (quant_a, quant_b, quant_c, quant_d));
     }
 }
